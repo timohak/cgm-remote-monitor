@@ -2,10 +2,6 @@
 
 var _get = require('lodash/get');
 var express = require('express');
-var wwwhisper = require('connect-wwwhisper');
-// app holds a reference to express or connect framework, it
-// may be named differently in your source file.
-app.use(wwwhisper());
 var compression = require('compression');
 var bodyParser = require('body-parser');
 var prettyjson = require('prettyjson');
